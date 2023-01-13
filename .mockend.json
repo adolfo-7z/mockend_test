@@ -1,11 +1,8 @@
 {
   "Post": {
     "_": { "items": 20 },
-    "title": { "string": {} },
-    "comments": { "hasMany": "Comment" }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": { "belongsTo": "Post" }
+    "Humidity": { "int": { "min": -10, "max": 45 } },
+    "Illumination": { "int": { "min": 450, "max": 2600 } },
+    "Activity": { "int": { "min": 0, "max": 1 } }
   }
 }
