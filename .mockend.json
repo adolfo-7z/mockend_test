@@ -1,5 +1,5 @@
 {
-  "Post": {
+  "am104am104": {
     "_": { "items": 20 },
     "Humidity": { "int": { "min": -10, "max": 45 } },
     "Illumination": { "int": { "min": 450, "max": 2600 } },
